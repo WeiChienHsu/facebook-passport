@@ -27,3 +27,18 @@
 - The client application will "receive JWT and save it for further use".
 
 - Every "request that goes to the backend server" should "contain a JWT" which uniquely identifies the user.
+
+
+## Client Setup — Angular 2
+In this section we will create a client application in Angular 2. 
+
+We will need to add two additional libraries: bootstrap-social and angular2-jwt:
+
+## User Service
+For communication with Facebook and our backend server we will create an Angular 2 service. The service will be responsible for:
+
+Using Facebook profiles to register users
+Logging users in with Facebook profile
+Logging users out
+Checking if users are logged in
+Getting current user
