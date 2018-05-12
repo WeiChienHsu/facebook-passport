@@ -224,6 +224,15 @@ export class AnonymousGuard implements CanActivate {
     }
 }
 ```
+***
+
+## Pages
+
+
+
+
+***
+
 
 ##
 # Passport-Facebook
